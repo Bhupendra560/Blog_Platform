@@ -11,5 +11,5 @@ class InputSerializer(serializers.ModelSerializer):
 
 class OutputSerializer(serializers.ModelSerializer):
         class Meta:
-            model = Task
+            model = BLOGMODEL
             fields = "__all__"
