@@ -1,0 +1,79 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #BF3131;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+nav input[type="text"] {
+    padding: 8px;
+    font-size: 14px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main {
+    display: block;
+    max-width: 70%;
+    margin: 15px auto;
+    padding: 5px 20px 0px 20px;
+    background-color: #1a3946;
+    border: 2px solid #f4f4f4;
+    border-radius: 5px;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    padding: 0px 10px 0px 10px;
+    border: 2px solid #6e00e3;
+    border-radius: 5px;
+    box-shadow: '0 4px 8px rgba(0, 0, 0, 0.9) ';
+    background-color: #fff;
+   
+}
+
+.limited-lines {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Adjust the number of lines before ellipsis */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Prevent text from wrapping to the next line */
+}
+.limited-lines-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 1; /* Adjust the number of lines before ellipsis */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Prevent text from wrapping to the next line */
+}
+
+
+h2 {
+    color: #2B3499;
+    font-family: 'Verdana';
+}
+
+h3 {
+    color: #333;
+    font-family: Verdana;
+}
+
+p {
+    color: #333;
+    font-family: sans-serif;
+}

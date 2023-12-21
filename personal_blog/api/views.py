@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework.response import Response
+from django.http import HttpResponse
+from django.http import JsonResponse
 from rest_framework import status
 from .models import BLOGMODEL
 from django.db import IntegrityError
@@ -57,6 +59,7 @@ class BLOGMODELVIEW(APIView):
 
 
     def put(self, request, pk):
+
         try:
             # checking if Blog exist, then update it
             existing_blog = BLOGMODEL.objects.get(id=pk)

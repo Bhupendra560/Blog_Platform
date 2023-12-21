@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head id = "head_element">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog_detail</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <!-- <script src="{% static 'scripts.js' %}"></script> -->
+</head>
+<body>
+    <header id="page_header">
+        <h1>Personal Blog Platform</h1>
+    </header>
+    
+    <main-detailed>
+        <div id="blog-details">
+            <!-- Blog Post will be dynamically added here -->
+        </div>
+    </main-detailed>
+    
+    <script src="{% static 'blog_detail.js' %}"></script>
+
+</body>
+</html>
