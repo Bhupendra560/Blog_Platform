@@ -39,9 +39,10 @@ main {
 
 main-detailed {
     display: block;
-    max-width: 96%;
+    max-width: 95%;
     margin: 10px auto;
-    padding: 10px 20px 18px 20px;
+    white-space: pre-line;
+    padding: 0px 20px 0px 20px;
     background-color: #fff;
     border: 2px solid #3f038a;
     border-radius: 10px;

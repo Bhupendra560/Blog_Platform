@@ -10,7 +10,7 @@ body {
 header {
     background-color: #BF3131;
     color: #fff;
-    padding: 1px;
+    padding: 1px 150px 1px 150px;
     text-align: center;
 }
 
@@ -31,16 +31,27 @@ main {
     display: block;
     max-width: 70%;
     margin: 15px auto;
-    padding: 5px 20px 0px 20px;
-    background-color: #1a3946;
+    padding: 10px 20px 0px 20px;
+    background-color: #213b46;
     border: 2px solid #f4f4f4;
     border-radius: 5px;
 }
 
+main-detailed {
+    display: block;
+    max-width: 96%;
+    margin: 10px auto;
+    padding: 10px 20px 18px 20px;
+    background-color: #fff;
+    border: 2px solid #3f038a;
+    border-radius: 10px;
+    box-shadow: '0 4px 8px rgba(0, 0, 0, 1) ';
+}
+
 .blog-post {
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     padding: 0px 10px 0px 10px;
-    border: 2px solid #6e00e3;
+    border: 3px solid #3f038a;
     border-radius: 5px;
     box-shadow: '0 4px 8px rgba(0, 0, 0, 0.9) ';
     background-color: #fff;
@@ -68,12 +79,12 @@ h2 {
     font-family: 'Verdana';
 }
 
-h3 {
-    color: #333;
+h4 {
+    color: #fff;
     font-family: Verdana;
 }
 
 p {
     color: #333;
-    font-family: sans-serif;
+    font-family: cursive;
 }
